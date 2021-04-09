@@ -515,7 +515,7 @@ h4 {
       width: 100%;
       left: -100%;
       top: 0;
-      background: navy;
+      background: gray;
       text-align: center;
       padding-top: 80px;
       transition: all 0.3s ease;
