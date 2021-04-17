@@ -8,7 +8,6 @@
   font-family: "montserrat", sans-serif;
   box-sizing: border-box;
   text-decoration: none;
-  /* background-color: whitesmoke; */
 }
 
 html{
@@ -95,8 +94,6 @@ section .title::after{
 }
 .navbar .max-width{
   display: flex;
-  /* gap: 200px;  */
-  /*Experiment*/
   align-items: center;
   justify-content: space-between;
 }
@@ -221,9 +218,6 @@ margin-right: 0;
   background: none;
 }
 /* about section styling */
-/* .about .title::after{
-  content: "who i am";
-} */
 .about h2{
   color: white;
 }
@@ -252,9 +246,6 @@ margin-right: 0;
   font-weight: 600;
   margin-bottom: 10px;
 }
-/* .about .about-content .right .text span{
-  color: crimson;
-} */
 .about .about-content .right p{
   text-align: justify;
   font-size: 20px;
@@ -270,31 +261,15 @@ margin-right: 0;
 .about-content img:hover{
   border: 5px solid gold;
 }
-/* .about .about-content .right a{
-  display: inline-block;
-  background: crimson;
-  color: #fff;
-  font-size: 20px;
-  font-weight: 500;
-  padding: 10px 30px;
-  margin-top: 20px;
-  border-radius: 6px;
-  border: 2px solid crimson;
-  transition: all 0.3s ease;
-} */
 .about .about-content .right a:hover{
   color: crimson;
   background: none;
 }
-
-
-
 /* Contact */
  .contact-section { 
    background: url(bg.png) no-repeat center; 
-   background: whitesmoke;
+   background: white;
   background-size: cover;
-  /* padding: 40px 0; */
 }
 .contact-section h1 {
   text-align: center;
@@ -342,6 +317,10 @@ margin-right: 0;
 textarea.contact-form-text {
   resize: none;
   height: 120px;
+}
+.send-btn{
+  width: 100%;
+  padding: 40px 330px;
 }
 .contact-form-btn {
   margin-top: 20px;
@@ -447,7 +426,6 @@ h4 {
 
 /* Footer */
 .footer{
-/* height: 100px; */
   background: black;
 } 
 .footer .social a {
@@ -573,12 +551,98 @@ h4 {
   }
 }
 
-@media screen and (min-width: 360px) and (max-width: 800px){
+@media screen and (min-width: 850px) and (max-width: 986px){
+  .send-btn{
+    width: 100%;
+    padding: 40px 290px;
+  }
   .contact-form-btn{
     margin-left: 25%;
   }
 }
 
+@media (max-width: 850px){
+  .send-btn{
+    width: 100%;
+    padding: 40px 300px;
+  }
+  .contact-form-btn{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 12px 50px;
+    border-radius: 20px;
+  }
+}
+@media (max-width: 822px){
+  .send-btn{
+    padding: 40px 280px;
+  }
+}
+@media (max-width: 782px){
+  .send-btn{
+    padding: 40px 250px;
+  }
+}
+@media (max-width: 722px){
+  .send-btn{
+    padding: 40px 240px;
+  }
+}
+@media (max-width: 702px){
+  .send-btn{
+    padding: 40px 220px;
+  }
+}
+@media screen and (min-width: 622px) and (max-width: 662px){
+  .send-btn{
+    padding: 40px 200px;
+  }
+}
+@media screen and (min-width: 582px) and (max-width: 622px){
+  .send-btn{
+    padding: 40px 180px;
+  }
+}
+@media screen and (min-width: 542px) and (max-width: 580px){
+  .send-btn{
+    padding: 40px 160px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 540px){
+  .send-btn{
+    padding: 40px 140px;
+  }
+}
+@media screen and (min-width: 460px) and (max-width: 500px){
+  .send-btn{
+    padding: 40px 120px;
+  }
+}
+@media screen and (min-width: 422px) and (max-width: 456px){
+  .send-btn{
+    padding: 40px 100px;
+  }
+}
+@media screen and (min-width: 402px) and (max-width: 420px){
+  .send-btn{
+    padding: 40px 80px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 401px){
+  .send-btn{
+    padding: 40px 50px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 401px){
+  .send-btn{
+    padding: 40px 50px;
+  }
+}
+@media screen and (min-width: 280px) and (max-width: 320px){
+  .send-btn{
+    padding: 40px 0px;
+  }
+}
 
 @media (max-width: 690px) {
   .max-width{
