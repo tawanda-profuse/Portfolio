@@ -473,20 +473,20 @@ h4 {
 
 /* Responsiveness */
 /* responsive media query start */
-@media (max-width: 1104px) {
+@media screen and (max-width: 1104px) {
   .about .about-content .left img{
       height: 350px;
       width: 350px;
   }
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .max-width{
       padding: 0 50px;
   }
 }
 
-@media (max-width: 947px){
+@media screen and (max-width: 947px){
   .menu-btn{
       display: block;
       z-index: 999;
@@ -561,7 +561,7 @@ h4 {
   }
 }
 
-@media (max-width: 850px){
+ @media screen and (max-width: 850px){
   .send-btn{
     width: 100%;
     padding: 40px 300px;
@@ -573,51 +573,61 @@ h4 {
     border-radius: 20px;
   }
 }
-@media (max-width: 822px){
+
+@media screen and (max-width: 822px){
   .send-btn{
     padding: 40px 280px;
   }
 }
-@media (max-width: 782px){
+
+@media screen and (max-width: 782px){
   .send-btn{
     padding: 40px 250px;
   }
 }
-@media (max-width: 722px){
+
+@media screen and (max-width: 722px){
   .send-btn{
     padding: 40px 240px;
   }
 }
-@media (max-width: 702px){
+
+@media screen and (max-width: 702px){
   .send-btn{
     padding: 40px 220px;
   }
 }
+
 @media screen and (min-width: 622px) and (max-width: 662px){
   .send-btn{
     padding: 40px 200px;
   }
 }
+
 @media screen and (min-width: 582px) and (max-width: 622px){
   .send-btn{
     padding: 40px 180px;
   }
 }
+
 @media screen and (min-width: 542px) and (max-width: 580px){
   .send-btn{
     padding: 40px 160px;
   }
 }
+
 @media screen and (min-width: 500px) and (max-width: 540px){
   .send-btn{
     padding: 40px 140px;
   }
 }
+
 @media screen and (min-width: 460px) and (max-width: 500px){
   .send-btn{
     padding: 40px 120px;
   }
 }
+
 @media screen and (min-width: 422px) and (max-width: 456px){
   .send-btn{
     padding: 40px 100px;
@@ -642,9 +652,9 @@ h4 {
   .send-btn{
     padding: 40px 0px;
   }
-}
+} 
 
-@media (max-width: 690px) {
+@media screen and (max-width: 690px) {
   .max-width{
     padding: 0 23px;
   }
@@ -662,7 +672,7 @@ h4 {
   }
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
   .home .home-content .text-2{
     font-size: 50px;
   }
@@ -694,7 +704,7 @@ h4 {
   }
   
   /* Media query at max-width: 400px for home section*/ 
-  @media(max-width: 400px){
+  @media screen and (max-width: 400px){
     .text-3 span{
       display: inline-block;
     }
