@@ -1,7 +1,6 @@
 /*  import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
-/* could be body */
 * {
   margin: 0;
   padding: 0;
@@ -15,17 +14,19 @@ html{
 }
 /* custom scroll bar */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 30px;
 }
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #00f;
+  cursor: pointer;
+  border-radius: 20px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: lightskyblue;
 }
 
 /* all similar content styling codes */
@@ -37,13 +38,12 @@ section{
   padding: 0 80px;
   margin: auto;
 }
-.about, .services, .skills, .teams, .contact, footer{
+.about, footer{
   font-family: 'Poppins', sans-serif;
 }
-.about .about-content,
-.services .serv-content,
-.skills .skills-content,
-.contact .contact-content{
+.about .about-content
+{
+/* .contact .contact-content */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -57,6 +57,7 @@ section .title{
   margin-bottom: 60px;
   padding-bottom: 20px;
   font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
 }
 section .title::before{
   content: "";
