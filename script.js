@@ -73,11 +73,11 @@ $(document).ready(function(){
 
 function anotherPic(){
     const decide = document.getElementById('changePic');
-    if(decide.src=='https://cdn.vox-cdn.com/thumbor/fPJRYcGWmkUrR89XCmT551_Iqnk=/0x0:1440x810/1400x1400/filters:focal(513x203:743x433):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/55801581/fairly_odd_parents.0.jpg'){
-        decide.src = 'https://ak.picdn.net/shutterstock/videos/230848/thumb/1.jpg';
+    if(decide.src=='images/fairly_odd_parents.jpg'){
+        decide.src == 'images/taurus.webp';
     }
-    else if(decide.src='https://ak.picdn.net/shutterstock/videos/230848/thumb/1.jpg'){
-        decide.src='https://cdn.vox-cdn.com/thumbor/fPJRYcGWmkUrR89XCmT551_Iqnk=/0x0:1440x810/1400x1400/filters:focal(513x203:743x433):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/55801581/fairly_odd_parents.0.jpg'
+    else if(decide.src='images/taurus.webp'){
+        decide.src='images/fairly_odd_parents.jpg';
     }
     return decide;
 }
