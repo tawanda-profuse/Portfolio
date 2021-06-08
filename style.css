@@ -98,6 +98,9 @@ section .title::after{
   align-items: center;
   justify-content: space-between;
 }
+.space{
+  margin-right: 700px;
+}
 .navbar .logo a{
   color: black;
   font-size: 35px;
@@ -479,11 +482,17 @@ h4 {
       height: 350px;
       width: 350px;
   }
+  .space{
+    margin-right: 500px;
+  }
 }
 
 @media screen and (max-width: 991px) {
   .max-width{
       padding: 0 50px;
+  }
+  .space{
+    margin-right: 300px;
   }
 }
 
@@ -627,31 +636,49 @@ h4 {
   .send-btn{
     padding: 40px 120px;
   }
+  .space{
+    margin-right: 200px;
+  }
 }
 
 @media screen and (min-width: 422px) and (max-width: 456px){
   .send-btn{
     padding: 40px 100px;
   }
+  .space{
+    margin-right: 200px;
+  }
 }
 @media screen and (min-width: 402px) and (max-width: 420px){
   .send-btn{
     padding: 40px 80px;
   }
-}
-@media screen and (min-width: 360px) and (max-width: 401px){
-  .send-btn{
-    padding: 40px 50px;
+  .space{
+    margin-right: 200px;
   }
 }
 @media screen and (min-width: 360px) and (max-width: 401px){
   .send-btn{
     padding: 40px 50px;
+  }
+  .space{
+    margin-right: 150px;
+  }
+}
+@media screen and (min-width: 322px) and (max-width: 358px){
+  .send-btn{
+    padding: 40px 50px;
+  }
+  .space{
+    margin-right: 130px;
   }
 }
 @media screen and (min-width: 280px) and (max-width: 320px){
   .send-btn{
     padding: 40px 0px;
+  }
+  .space{
+    margin-right: 80px;
   }
 } 
 
