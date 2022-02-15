@@ -18,6 +18,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="carousel.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
@@ -77,15 +78,64 @@
       <div class="max-width">
         <h2 class="title">Summary</h2>
         <div class="about-content">
+          <!-- Left Side -->
           <div class="column left">
-            <img
+            <!-- <img
               title="Click here."
               onclick="anotherPic()"
               id="changePic"
               src="images/taurus.webp"
               alt="Images that define me"
-            />
+            /> -->
+            <div class="container">
+              <div class="carousel">
+                <input type="radio" id="carousel-1" name="carousel[]" checked>
+                <input type="radio" id="carousel-2" name="carousel[]">
+                <input type="radio" id="carousel-3" name="carousel[]">
+                <input type="radio" id="carousel-4" name="carousel[]">
+                <input type="radio" id="carousel-5" name="carousel[]">
+                <ul class="carousel__items">
+                  <li class="carousel__item"><img src="images/fairly_odd_parents.jpg" alt="Timmy turner">
+                    <h4 class="image_desc">Fairly Odd Parents</h4>
+                  </li>
+                  <li class="carousel__item"><img src="images/giraffe.jpg" alt="">
+                    <h4 class="image_desc">Fantasy Giraffe</h4>
+                  </li>
+                  <li class="carousel__item"><img src="images/magic.jpg" alt="">
+                    <h4 class="image_desc">Open a world of magic...</h4>
+                  </li>
+                  <li class="carousel__item"><img src="images/elephant.jpg" alt="">
+                    <h4 class="image_desc">Magical Elephant</h4>
+                  </li>
+                  <li class="carousel__item"><img src="images/flamingo.jpg" alt="">
+                    <h4 class="image_desc">Mystical Flamingo</h4>
+                  </li>
+                </ul>
+                 <div class="carousel__prev">
+                   <label for="carousel-1"></label>
+                   <label for="carousel-2"></label>
+                   <label for="carousel-3"></label>
+                   <label for="carousel-4"></label>
+                   <label for="carousel-5"></label>
+                 </div>
+                 <div class="carousel__next">
+                   <label for="carousel-1"></label>
+                   <label for="carousel-2"></label>
+                   <label for="carousel-3"></label>
+                   <label for="carousel-4"></label>
+                   <label for="carousel-5"></label>
+                 </div>
+                 <!-- <div class="carousel__nav">
+                   <label for="carousel-1"></label>
+                   <label for="carousel-2"></label>
+                   <label for="carousel-3"></label>
+                   <label for="carousel-4"></label>
+                   <label for="carousel-5"></label>
+                 </div> -->
+               </div>
+             </div>
           </div>
+          <!-- Right Side -->
           <div class="column right">
             <div class="text">A little bit about me...</div>
             <p>
