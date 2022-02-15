@@ -8,16 +8,6 @@
 	 -webkit-box-sizing: border-box;
 	 -moz-box-sizing: border-box;
 }
- /* body {
-	 background: #fcfcfc;
-	 margin: 0;
-} */
- .container {
-	 /* width: 900px; 
-	 min-width: 900px; */
-	 /* margin: 50px auto; */
-	 /* margin: 10px auto;  */
-}
  .carousel {
 	 width: 100%;
 	 position: relative;
@@ -37,7 +27,6 @@
 	 opacity: 1;
 }
  .carousel > input[type="radio"]:nth-child(1):checked ~ .carousel__nav > label:nth-child(1) {
-	 /* background: #ccc; */
 	 background: #000;
 	 cursor: default;
 	 pointer-events: none;
@@ -46,7 +35,6 @@
 	 opacity: 1;
 }
  .carousel > input[type="radio"]:nth-child(2):checked ~ .carousel__nav > label:nth-child(2) {
-	 /* background: #ccc; */
 	 background: #000;
 	 cursor: default;
 	 pointer-events: none;
@@ -55,7 +43,6 @@
 	 opacity: 1;
 }
  .carousel > input[type="radio"]:nth-child(3):checked ~ .carousel__nav > label:nth-child(3) {
-	 /* background: #ccc; */
 	 background: #000;
 	 cursor: default;
 	 pointer-events: none;
@@ -64,7 +51,6 @@
 	 opacity: 1;
 }
  .carousel > input[type="radio"]:nth-child(4):checked ~ .carousel__nav > label:nth-child(4) {
-	 /* background: #ccc; */
 	 background: #000;
 	 cursor: default;
 	 pointer-events: none;
@@ -73,7 +59,6 @@
 	 opacity: 1;
 }
  .carousel > input[type="radio"]:nth-child(5):checked ~ .carousel__nav > label:nth-child(5) {
-	 /* background: #ccc; */
 	 background: #000;
 	 cursor: default;
 	 pointer-events: none;
@@ -103,7 +88,6 @@
 	 vertical-align: middle;
 }
  .carousel__prev > label, .carousel__next > label {
-	 /* border: 1px solid #fff; */
 	 border: 3px solid gold;
 	 border-radius: 50%;
 	 cursor: pointer;
@@ -135,18 +119,15 @@
 	 top: 20%;
 }
  .carousel__prev > label {
-	 /* left: 2%; */
 	 left: 0%;
 }
  .carousel__prev > label:before {
-	 /* left: 35%; */
 	 left: 35%;
 	 top: 20%;
 	 transform: rotate(135deg);
 	 -webkit-transform: rotate(135deg);
 }
  .carousel__next > label {
-	 /* right: 2%; */
 	 right: 22%;
 }
  .carousel__next > label:before {
