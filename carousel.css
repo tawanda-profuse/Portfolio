@@ -60,7 +60,7 @@
 .carousel {
   width: 100%;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
 }
 .carousel > input[type="radio"] {
   position: absolute;
@@ -260,4 +260,62 @@ h4 {
   color: white;
   font-family: "montserrat", sans-serif;
   text-transform: none;
+}
+/* A media query for the carousel images */
+
+@media screen and (max-width: 1290px){
+/*.carousel__prev > label,*/
+.carousel__next > label {
+    right: 22%;
+  }
+}
+@media screen and (max-width: 1240px){
+/*.carousel__prev > label,*/
+.carousel__next > label {
+    right: 18%;
+  }
+}
+@media screen and (max-width: 1171px){
+/*.carousel__prev > label,*/
+.carousel__next > label {
+    right: 14%;
+  }
+}
+@media screen and (max-width: 1141px){
+/*.carousel__prev > label,*/
+.carousel__next > label {
+    right: 13%;
+  }
+}
+@media screen and (max-width: 1105px){
+/*.carousel__prev > label,*/
+.carousel__next > label {
+    right: 18%;
+  }
+}
+@media screen and (max-width: 1022px){
+/*.carousel__prev > label,*/
+.carousel__next > label {
+    right: 11%;
+  }
+}
+@media screen and (max-width: 947px){
+/*.carousel__prev > label,*/
+.carousel__next > label {
+    left: 100%;
+  }
+}
+
+@media screen and (max-width: 947px){
+    .carousel{
+      margin-right: 300px;
+    }
+    .left img{
+      margin-bottom: 5px;
+    }
+}
+@media screen and (max-width: 435px){
+    .carousel{
+      margin-left: 0px;
+    }
 }
