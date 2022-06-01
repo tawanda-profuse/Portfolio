@@ -4,7 +4,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "montserrat", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   box-sizing: border-box;
   text-decoration: none;
 }
@@ -14,7 +14,7 @@ html{
 }
 /* custom scroll bar */
 ::-webkit-scrollbar {
-  width: 30px;
+  width: 16px;
 }
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
@@ -39,7 +39,7 @@ section{
   margin: auto;
 }
 .about, footer{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 .about .about-content
 {
@@ -108,7 +108,8 @@ section .title::after{
   /* just added */
   text-decoration: none;
 }
-.navbar .logo a span{
+/* .navbar .logo a span{ */
+  .highlight{
   color: blue;
   transition: all 0.3s ease;
 }
@@ -488,6 +489,12 @@ h4 {
   }
 }
 
+@media screen and (max-width: 1084px) {
+  .fa-discord{
+    margin-top: 20px;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .max-width{
       padding: 0 50px;
@@ -572,6 +579,18 @@ h4 {
   }
 }
 
+@media screen and (max-width: 750px){
+  .scroll-up-btn{
+    margin-bottom: 200px;
+  }  
+}
+
+@media screen and (max-width: 600px){
+  .fa-instagram{
+    margin-top: 20px;
+  }
+}
+
  @media screen and (max-width: 850px){
   .send-btn{
     width: 100%;
@@ -633,6 +652,18 @@ h4 {
   }
 }
 
+@media screen and (min-width: 455px) and (max-width: 462px){
+  .send-btn{
+    padding: 20px 100px;
+  }
+}
+
+@media screen and (max-width: 462px) {
+  a.contact-form-btn{
+    padding: 10px 40px;
+  }  
+}
+
 @media screen and (min-width: 460px) and (max-width: 500px){
   .send-btn{
     padding: 40px 120px;
@@ -650,6 +681,31 @@ h4 {
     margin-right: 200px;
   }
 }
+
+@media screen and (max-width: 471px){
+  .fa-twitter{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 465px){
+  .fa-facebook{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 457px){
+  .fa-linkedin{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .grid{
+    display: inline-block;
+  }
+}
+
 @media screen and (min-width: 402px) and (max-width: 420px){
   .send-btn{
     padding: 40px 80px;
@@ -737,4 +793,15 @@ h4 {
     .text-3 span{
       display: inline-block;
     }
+  }
+
+  @media screen and (min-width: 360px) and (max-width: 500px){
+      footer{
+        padding-bottom: 50px;
+        padding-top: 50px;
+      }
+      .rights{
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
   }
