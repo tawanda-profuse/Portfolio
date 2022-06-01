@@ -102,11 +102,9 @@ section .title::after{
   color: black;
   font-size: 35px;
   font-weight: 600;
-  /* just added */
   text-decoration: none;
 }
-/* .navbar .logo a span{ */
-  .highlight{
+.highlight{
   color: blue;
   transition: all 0.3s ease;
 }
